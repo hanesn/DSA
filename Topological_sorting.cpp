@@ -1,4 +1,4 @@
-// topological sort is only possible for directed acyclic graph
+// topological sort(dfs) is only possible for directed acyclic graph
 #include<bits/stdc++.h>
 using namespace std;
 void dfs(int node,vector<bool> &visited,stack<int> &stk,vector<int> graph[]){
